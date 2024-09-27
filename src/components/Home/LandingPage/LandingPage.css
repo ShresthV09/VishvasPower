@@ -1,0 +1,350 @@
+
+
+
+.LandingPageVPESContainer .ContentLandingPage span{
+    display: inline-flex;
+}
+.SectionLP{
+  margin: 0rem;
+  overflow: hidden;
+
+}
+@media(min-width:900px){
+
+.SectionLP{
+  background-color: #121212;
+  height: 100vh ;
+}
+    .LandingPageVPESSection{
+        display: flex;
+        justify-content: space-around;
+    }
+    .BCIlp{
+      background-image: url(https://res.cloudinary.com/ddy8u7ff2/image/upload/v1680363142/VishvasWebsite/m6crqfgtursaohp98khc.png);
+      height: 100%;
+        width: 98%;
+        margin-left: 16px;
+        position: absolute;
+        border-radius: 10px !important;
+        z-index: 1;
+        left: 0px;
+        opacity: 0.3;
+        animation: pan-image 15s linear infinite;
+        top: 0px;
+        background-size: 300%;
+        background-position: 0% 0%;
+      }
+    .LandingPageVPESContainer .ContentLandingPage{
+        top: 70% !important;
+        position:relative;
+        width: 45%;
+    }
+    .LandingPageVPESSection .StatsPlusContainer{
+        height: 100vh;
+        width: 90vw;
+        aspect-ratio: 16/9;
+        z-index: 10;
+        position: relative;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .power{
+      color: white;
+    }
+    .LandingPageVPESContainer .LogoLandingPage img{
+      height: 300px;
+      width: 300px;
+    }
+     .LandingPageVPESContainer .LogoLandingPage {
+        position: relative;
+        top: 60%;
+        filter: brightness(85%);
+    }
+    .LandingPageVPESContainer .ContentLandingPage .v h1::first-letter{
+       
+        font-size: 64px;
+    }
+    .LandingPageVPESContainer .ContentLandingPage h1{
+       
+        /* background-color: #f39f86;
+        background-image: linear-gradient(0.25turn, #f39f86 0%, #f9d976 74%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+       color: #fff;
+       /* color: #121212; */
+        font-weight: 800;
+        line-height: 64px;
+    }
+    .subtitleLanding{
+        margin-top: 40px;
+       
+        /* border-bottom: 2px solid transparent;
+        border-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+        border-image-slice: 3; */
+        
+    }
+    .sndSub{
+        margin: 0 !important;padding: 0;
+        font-size: 20px !important;
+        font-weight: 900 !important;
+    }
+    .LandingPageVPESContainer .ContentLandingPage p{
+        font-size: 19px;
+        color: #fff;
+       padding-bottom: 4px;
+        font-weight: 500;
+    }
+    .LandingPageVPESContainer{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .StatsContianer{
+        padding-top: 100px !important;
+    }
+
+    @keyframes pan-image {  
+      0% {
+       
+        background-position: 100% 85%;
+        background-size: 200%;
+      }
+  
+      
+      20% {
+        background-position: 80% 81%;
+        background-size: 300%;
+      }
+      
+      20.0001% { /* -- View 2 -- */
+        background-position: 0% 0%;
+        background-size: 200%;
+      }
+      
+      40% {
+        background-position: 10% 30%;
+        background-size: 300%;
+      }
+      
+      40.0001% { /* -- View 3 -- */
+        background-position: 80% 30%;
+        background-size: 400%;
+      }
+      
+      60% {
+        background-position: 84% 0%;
+        background-size: 300%;
+      }
+      
+      60.0001% { /* -- View 4 -- */
+        background-position: 0% 0%;
+        background-size: 200%;
+      }
+      
+      80% {
+        background-position: 20% 30%;
+        background-size: 300%;
+      }
+      
+      80.0001% { /* -- View 5 -- */
+        background-position: 0% 60%;
+        background-size: 300%;
+      }
+      
+      100% {
+        background-position: 20% 100%;
+        background-size: 200%;
+      }
+    }
+}
+@media(max-width:900px) {
+ 
+  .LandingPageVPESSection .StatsPlusContainer{
+    height: 160vh ;
+    width: 100vw;
+    aspect-ratio: 10/16;
+    z-index: 10;
+    position: relative;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  .BCIlp{
+    background-image: url(https://res.cloudinary.com/ddy8u7ff2/image/upload/v1680429207/VishvasWebsite/mavsct6hrqyezqqaxsui.png);
+    height: 160vh;
+      width: 100%;
+     
+      position: absolute;
+      border-radius: 10px !important;
+      z-index: 1;
+      left: 0px;
+      opacity: 0.3;
+      animation: pan-imageMob 15s linear infinite;
+      top: 0px;
+      background-size: 300%;
+      background-position: 0% 0%;
+    }
+    .LandingPageVPESSection{
+        height: 150vh ;
+        width: 100vw !important;
+        background-color: #fff;
+    }
+    .LandingPageVPESSection .StatsPlusContainer{
+        margin-top: 90px;
+      
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .power{
+      color: #121212;
+    }
+    .LandingPageVPESContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .LandingPageVPESContainer .LogoLandingPage {
+        margin-left :0px;
+    }
+    .LandingPageVPESContainer .ContentLandingPage{
+        margin-top: 10px;
+       margin-left: 13%;
+    }
+    .LandingPageVPESContainer .ContentLandingPage .v h1::first-letter{ 
+      font-size: 50px;
+  }
+  .LandingPageVPESContainer .ContentLandingPage .v h1{
+    margin-bottom: 0px;
+  }
+
+     .LandingPageVPESContainer .ContentLandingPage span .v{
+        color: #ff2d34 ;
+        font-size: 64px !important;
+    } 
+    .LandingPageVPESContainer .ContentLandingPage h1{
+        color: #121212;
+        font-weight: 800;
+        line-height: 54px;
+     }
+     .LandingPageVPESContainer .ContentLandingPage span{
+        display: inline-flex;
+       
+    }
+    .subtitleLanding{
+      margin-top: 30px;
+      padding-right: 35px;
+    }
+    .sndSub{
+     
+      margin: 0 !important;padding: 0;
+      font-size: 17px !important;
+      font-weight: 800 !important;
+  }
+}
+@media(max-width:450px){
+  .SectionLP{
+    height: 240vh !important;
+    margin-bottom: 20px;
+
+  }
+  .BCIlp{
+    height: 240vh !important ;
+  }
+}
+@media(max-width:380px){
+  .SectionLP{
+    height: 215vh !important ;
+  }
+  .BCIlp{
+    height: 215vh !important;
+  }
+  .LandingPageVPESContainer .ContentLandingPage{
+    height: 20vh;
+    margin-bottom: 40px;
+  }
+  .LandingPageVPESContainer .ContentLandingPage{
+  
+  }
+}
+@media(max-width:400px){
+  .SectionLP{
+    height: 175vh ;
+  }
+  .BCIlp{
+    height: 173vh ;
+  }
+  .LandingPageVPESContainer .ContentLandingPage{
+    height: 20vh;
+  }
+}
+@keyframes pan-imageMob {  
+  0% {
+    background-position: 36% 42%;
+    background-size: 200%;
+  }
+  
+  20% {
+    background-position: 30% 35%;
+    background-size: 200%;
+  }
+  
+  20.0001% { /* -- View 2 -- */
+    background-position: 60% 85%;
+    background-size: 500%;
+  }
+  
+  40% {
+    background-position: 49% 81%;
+    background-size: 500%;
+  }
+  
+  40.0001% { /* -- View 3 -- */
+    background-position: 80% 42%;
+    background-size: 300%;
+  }
+  
+  60% {
+    background-position: 84% 33%;
+    background-size: 300%;
+  }
+  
+  60.0001% { /* -- View 4 -- */
+    background-position: 0% 0%;
+    background-size: 300%;
+  }
+  
+  80% {
+    background-position: 15% 4%;
+    background-size: 300%;
+  }
+  
+  80.0001% { /* -- View 5 -- */
+    background-position: 80% 10%;
+    background-size: 300%;
+  }
+  
+  100% {
+    background-position: 72% 14%;
+    background-size: 300%;
+  }
+}
+
+
+
+
+.statsName{
+    color: #fff;
+    
+}
+.StatsNumber{
+    /* background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #DC0000 ;
+    font-weight: 700;
+}

@@ -1,0 +1,125 @@
+
+.containerProducts{
+    display: flex;
+    flex-direction: column;
+   
+    width: 100vw !important;
+    background-color: #121212;
+   
+    height: 120vh !important;
+    /* background: rgb(169,32,51);
+background: linear-gradient(90deg, rgba(169,32,51,1) 0%, rgba(172,36,55,1) 9%, rgba(222,114,126,1) 63%, rgba(255,255,255,1) 100%); */
+}
+.HeaderProd{
+    padding-left: 15px !important;
+}
+
+.prod-cardS h3 {
+    color: white;
+     
+ }
+ .prod-cardS li{
+     color: white !important;
+ }
+ .ProdButton{
+     color: #fff;
+ }
+@media(min-width:900px){
+    .containerProducts{
+        padding-left: 125px !important;
+    }
+}
+.card-services{
+    margin-top: 0px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35% !important;
+}
+.header-services span{
+    display: inline-flex !important;
+}
+.header-services{
+    padding-top: 40px !important;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+.header-services h2{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #DC0000;
+}
+.para-services{
+    padding-left: 30px;
+}
+
+@media(max-width:912px){
+    .containerProducts{
+        width: 100% !important;
+        border-radius: 1%;
+        height: 75vh !important;
+    }
+    .prod-cardS{
+        width: 260px;
+        
+    }
+}
+@media (max-width : 800px) {
+    .card-services{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .containerProducts{
+        padding-left: 20px !important;
+        height: 210vh ;
+        width: 100% !important;
+        border-radius: 1% !important;
+
+    }
+    .prod-cardS:nth-child(2){
+        padding-top: 0px !important;
+        
+    }
+    .prod-cardS{
+        margin-top: 15px;
+    }
+    .BorderTop{
+        border-top: 2px solid white;
+        
+    }
+   
+}
+@media (max-width : 500px){
+    .containerProducts{
+        height: 250vh !important ;
+    }
+    .prod-cardS{
+        width: 380px;
+    }
+}
+@media (max-width : 420px){
+    .containerProducts{
+        height: 220vh !important ;
+    }
+    .prod-cardS{
+        width: 350px;
+    }
+}
+
+@media (max-width : 385px){
+    .containerProducts{
+        height: 305vh !important ;
+    }
+    .prod-cardS{
+        width: 320px;
+      
+    }
+}
+@media (max-width : 400px){
+    .containerProducts{
+        height: 245vh !important;
+    }
+    .prod-cardS{
+        width: 320px;
+      
+    }
+}

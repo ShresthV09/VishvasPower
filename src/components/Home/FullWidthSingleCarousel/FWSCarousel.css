@@ -1,0 +1,212 @@
+.container-slider {
+    max-width: 100vw;
+    margin: 10px auto 0;
+    position: relative;
+    overflow: hidden;
+   
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+ 
+  @media(max-width: 700px){
+    .container-slider {
+      margin: 0px 10px 0;
+      height: 50vh;
+      margin-bottom: 20px !important;
+    }
+    .btn-slide {
+      width: 30px !important;
+      height: 30px!important;
+      position: relative;
+      display: flex;
+      top: 26vh ;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    
+    .btn-slide img {
+      filter: invert(16%) sepia(36%) saturate(5355%) hue-rotate(347deg) brightness(82%) contrast(123%);
+      width: 30px !important;
+      height: 30px  !important;
+      pointer-events: none;
+    }
+    .slide .content{
+      z-index: 10;
+      position: absolute;
+      top: 40vh;
+      color: white;
+     left: 10px;
+     
+    }
+    .slide img {  
+      aspect-ratio: 6/7 !important;
+      filter: brightness(75%);
+      
+    }
+  
+    .slide .content .headerSlideShowA {
+    font-size: 16px   ;
+    line-height: 24px ;
+    border-bottom: #DC0000 2px solid;
+    color: #fff;
+    text-shadow: 2px 2px #121212;
+    text-align: left;
+    font-weight: 600 ;
+    }
+    .prev {
+      top: 50%;
+      left: 20px;
+      transform: translateY(-60%);
+    }
+    .next {
+      top: 50%;
+      right: 20px;
+      transform: translateY(-60%);
+    }
+  }
+  @media(min-width:600px){
+  .container-slider{
+    height: 90vh;
+  }
+  .prev {
+    top: 50%;
+    left: 20px;
+    transform: translateY(-60%);
+  }
+  .next {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-60%);
+  }
+  
+    .container-slider {
+      margin-bottom: 30px;
+      border-radius: 10px;
+      
+    }
+    .slide .content{
+      z-index: 10;
+      position: absolute;
+      top: 72vh;
+      color: white;
+     left: 100px;
+     
+    }
+  
+    .slide .content .headerSlideShowA {
+    font-size: 36px   ;
+    line-height: 74px ;
+    border-bottom: #DC0000 2px solid;
+    color: #fff;
+    text-shadow: 2px 2px #121212;
+    text-align: left;
+    font-weight: 600 ;
+    }
+    .slide img {  
+      object-fit: cover !important;
+      filter: brightness(75%);
+      
+    }
+    
+    .slide img {
+      border-radius: 15px;
+      width: 98% !important;
+    }
+    .btn-slide {
+      width: 70px;
+      height: 70px;
+     
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    
+    .btn-slide img {
+      filter: invert(16%) sepia(36%) saturate(5355%) hue-rotate(347deg) brightness(82%) contrast(123%);
+      width: 70px;
+      height: 70px;
+      pointer-events: none;
+    }
+  }
+  .slide {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.4s;
+    
+  }
+
+
+  .active-anim {
+    opacity: 1;
+  }
+  
+ 
+  
+  .container-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+   
+    margin: 0 5px;
+    
+  }
+  .dot.active {
+    background: #121212;
+  }
+  @media(max-width:450px){
+    .slide .content{
+      z-index: 10;
+      position: absolute;
+      top: 40vh;
+      color: white;
+     left: 30px;
+     
+    }
+    .slide .content .headerSlideShowA {
+      font-size: 12px   ;
+      line-height: 15px ;
+      border-bottom: #DC0000 2px solid;
+      color: #fff;
+      text-shadow: 2px 2px #121212;
+      text-align: left;
+      
+      font-weight: 600 ;
+      }
+      .btn-slide {
+        width: 30px !important;
+        height: 30px!important;
+        position: relative;
+        display: flex;
+        top: 20vh !important ;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      .prev {
+        top: 40% !important;
+        left: 20px;
+        transform: translateY(-60%);
+      }
+      .next {
+        top: 40% !important;
+        right: 20px;
+        transform: translateY(-60%);
+      }
+      .slide img {  
+
+        object-fit: fill;
+        filter: brightness(75%);
+        
+      }
+  }

@@ -1,0 +1,124 @@
+
+.whyus{
+    background-color:#fff;
+    width: 90% !important; 
+    margin-bottom: 50px;
+}
+.whyus .header-services{
+    margin-bottom: 0px;
+    display: flex;
+    margin-left: 60px;
+}
+.whyus .header-services h2{
+    color: #121212;
+    font-weight: 800;
+   
+}
+.Service{
+    color: #121212;
+}
+.header-services h1{
+    color: #121212;
+    border-bottom: 2px solid #DC0000;
+}
+.header-services h1::first-letter{
+    font-size: 40px;
+}
+@media(min-width:700px){
+    .whyus .points{
+        margin-left: 70px;
+        color: black;
+        font-weight: 500;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+@media(max-width:700px){
+    .whyus .points{
+        margin-left: 0px !important;
+        color: black;
+        font-weight: 500;
+    }
+    .whyus .points li{
+        font-size: 15px;
+    }
+    .whyus .header-services{
+        margin-left: 0px !important;
+    }
+    .whyus .header-services h2{
+        font-size: 35px;
+    }
+    .container-WhyPage{
+        height: 60vh !important;
+    }
+}
+.container-WhyPage{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   
+    height: 90vh ;
+    /* background: rgb(169,32,51);
+background: linear-gradient(90deg, rgba(169,32,51,1) 0%, rgba(172,36,55,1) 9%, rgba(222,114,126,1) 63%, rgba(255,255,255,1) 100%); */
+}
+@media(min-width:900px){
+    .container-WhyPage{
+        margin-left: 70px !important;
+    }
+    .whyus{
+        height: 70vh !important;
+        margin-left: 0px !important;
+    }
+    .container-WhyPage .card-services{
+        margin-top: 0px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 50px;
+        width: 32% !important;
+    }
+}
+
+.header-services{
+    padding-top: 40px !important;
+    padding-left: 30px;
+}
+.para-services{
+    padding-left: 30px;
+}
+@media(max-width:912px){
+   
+    .prod-card{
+        width: 260px;
+        
+    }
+}
+@media (max-width : 800px) {
+    .card-services{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+   
+    .prod-card:nth-child(2){
+        padding-top: 0px !important;
+    }
+}
+@media (max-width : 420px){
+    
+    .prod-card{
+        width: 350px;
+    }
+}
+
+@media (max-width : 385px){
+    
+    .prod-card{
+        width: 320px;
+    }
+}
+@media (max-width : 385px){
+    .prod-card{
+        width: 250px;
+    }
+   
+}

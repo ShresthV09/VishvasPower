@@ -1,0 +1,164 @@
+
+
+@media(min-width:900px){
+    .headerRepair{
+        position: relative;
+        right: 150px;
+    }
+}
+@media(max-width:900px){
+    .headerRepair{
+       margin-left: 150px;
+    }
+    
+    .Card-Slider img{
+        height: 200px !important;
+        width: 275px !important;
+        margin: 0px !important;
+    }
+    .ant-carousel{
+        height: 35vh !important;
+    }
+    .slick-slider{
+        height: 35vh !important;
+    }
+    .slick-list{
+        height: 35vh !important;
+    }
+    .slick-track{
+        height: 35vh !important;
+    }
+    .Card-ContainerRaw{
+        height: 30vh !important;
+        margin-left: 15vw;
+    }
+    .Card-Slider{
+        height: 35vh !important;
+    }
+    section{
+        margin-top: 0px;
+        height: 50vh !important;
+       
+    }
+}
+.header-div{
+   
+    display: flex;
+    flex-direction: column;
+}
+.header-divRaw{
+    display: flex;
+    flex-direction: column;
+}
+.Slider-DivPlant{
+    display: flex;
+    justify-content: space-between !important;
+    height: auto;
+
+    
+}
+@media (max-width:800px){
+    .Slider-DivPlant{
+        flex-direction: column !important;
+    }
+    .Card-Slider{
+        height: 275px !important;
+        width: 375px !important;
+    }
+    .header-divRaw {
+        height: 50vh !important;
+    }
+}
+@media (max-width : 1000px){
+    .Slider-Div{
+        flex-direction: column !important;
+    }
+
+}
+.Card-Slider{
+    height: 300px;
+    width: 300px;
+}
+.Card-ContainerPlant{
+    height: 400px !important;
+    width: 400px;
+    margin-top: 35px;
+   
+}
+@media(min-width:900px){
+    .Card-ContainerPlant{
+       
+       margin-right: 200px;
+    }
+    section{
+        margin-top: 0px;
+        height: 90vh;
+    }
+}
+.Card-ContainerVendors{
+    height: 400px !important;
+    width: 400px;
+    margin-top: 35px;
+   
+}
+@media(min-width:900px){
+    .Card-ContainerVendors{
+       
+       margin-right: 100px;
+    }
+    .Card-ContainerRaw{
+        height: 80vh !important;
+        width: 70vw !important;
+        
+    }
+    
+}
+
+.readMore{
+    margin-left: 150px;
+}
+.Content-containerPlant{
+    margin-top: 80px;
+}
+
+@media(min-width : 900px){
+    .Content-containerProcessPage{
+        margin-right: 300px !important;
+    }
+    .button-slider{
+        padding-left: 120px;
+     }
+     .button-sliderRaw{
+         padding-left: 430px;
+         margin-top: 20px;
+     }
+}
+.Card-ContainerProcessPage{
+    height: 400px !important;
+    width: 400px;
+    
+  
+}
+
+
+
+@media(min-width : 900px){
+    .Content-containerProcessPageDryout{
+        margin-top: 100px;
+        margin-right: 300px !important;
+    }
+    .Card-ContainerRaw .Card-Slider img{
+        height: 60vh;
+        width: 70vw;
+        object-fit: contain !important;
+    }
+    .Card-ContainerRaw .Card-Slider {
+        height: 60vh ;
+    }
+}
+.Card-ContainerProcessPageDryout{
+    height: 400px !important;
+    width: 400px;
+    
+  
+}

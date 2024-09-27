@@ -1,0 +1,32 @@
+.serviceContainerHomePage{
+    display: flex !important;
+    margin-top: 50px;
+    justify-content: space-around !important;
+    border: 2px solid whitesmoke;
+}
+.container-servicesHomePage{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 120vh !important;
+}
+.card-services{
+    margin-top: 0px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 32% !important;
+}
+.header-services{
+    padding-top: 40px !important;
+    padding-left: 30px;
+}
+.para-services{
+    padding-left: 30px;
+}
+@media (max-width : 800px) {
+    .card-services{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+}

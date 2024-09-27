@@ -1,0 +1,138 @@
+.container-WhyusProd{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100vh !important;
+
+}
+@media(min-width:900px){
+    .container-WhyusProd{
+        margin-left: 75px !important;
+    }
+}
+@media(max-width:912px){
+    .container-WhyusProd{
+        width: 100% !important;
+        border-radius: 1%;
+        height: 75vh !important;
+    }
+
+}
+@media (max-width : 800px) {
+    .container-WhyusProd{
+        margin-left: 20px !important;
+        height: 210vh !important;
+        width: 90% !important;
+        border-radius: 1% !important;
+
+    }
+}
+
+.card-Whyus{
+    margin-top: 0px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100% !important;
+    height: 80vh;
+}
+.card1 img{
+    width: 400px !important;
+    height: 400px !important;
+}
+
+@media (max-width : 800px) {
+    .card-Whyus{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .card1{
+       
+        width: 400px !important;
+    }
+    .card1 img{
+        width: 550px !important;
+        height: 250px !important;
+    }
+    .card2{
+        width: 400px !important;
+    }
+}
+@media (max-width : 400px) {
+    .card-Whyus{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .card1{
+       
+        width: 350px !important;
+    }
+    .card1 img{
+        width: 550px !important;
+        height: 250px !important;
+    }
+    .card2{
+        width: 350px !important;
+    }
+}
+@media (min-width : 800px){
+    .card1{
+        width: 550px !important;
+        height: 80vh !important;
+    }
+    .card1 img{
+        width: 550px !important;
+        height: 250px !important;
+    }
+    .card2{
+        width: 550px !important;
+    }
+    .card2 img{
+        width: 550px !important;
+        height: 250px !important;
+       
+    }
+}
+@media (max-width : 800px) {
+    .card-Whyus{
+        flex-direction: column !important;
+        width: 100% !important;
+       
+    }
+}
+@media(max-width:912px){
+    .card1{
+        width: 260px;
+    }
+    .card2{
+        width: 260px;
+    }
+}
+@media (max-width : 420px){
+    .container-WhyusProd{
+        height: 150vh !important;
+    }
+    .card1{
+        width: 350px;
+    }
+    .card2{
+        width: 350px;
+    }
+}
+@media (max-width : 400px){
+    .container-WhyusProd{
+        height: 160vh !important;
+    }
+   
+}
+@media (max-width : 385px){
+    .container-WhyusProd{
+        height: 200vh !important;
+    }
+    .card1{
+        width: 320px;
+    }
+    .card2{
+        width: 320px;
+    }
+}

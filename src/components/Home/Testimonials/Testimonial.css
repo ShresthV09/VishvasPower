@@ -1,0 +1,143 @@
+.SectionTesti{
+   
+    height: 105vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: #121212;
+   
+}
+
+.ContainerTesti{ 
+    width: 90vw;
+    height: 100%;
+    border-radius: 10%;
+}
+.comma{
+    color: #212121 !important;
+}
+.namepart{
+    color: #212121 !important;
+}
+
+
+.cards-section{
+    display: flex;
+}
+@media(min-width:900px){
+    .testi-header{
+        margin-top: 50px;
+        padding-left: 55px;
+    }
+    .HeadingTesti{
+        display: flex;
+        padding-top:30px ;
+        
+    }
+}
+@media(max-width : 850px){
+    .SectionTesti{
+        height: 90vh !important;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .comma{
+        margin-bottom: 0px;
+    }
+    .namepart{
+        margin-bottom: 0px !important; 
+    }
+    .card:nth-child(1){
+        margin-top: 100px !important;
+    }
+    .card{
+        padding-top: 0px !important;
+        height: 250px;
+        width: 100% !important;
+        margin-top: 20px !important;
+
+    }
+    .HeadingTesti{
+        display: flex;
+        padding-top:0px ;
+        
+    }
+   
+}
+@media(max-width : 600px){
+    .testi-header{
+        margin-top: 30px !important;
+        margin-left: 35px;
+    }
+   .card{
+    height: 210px;
+   }
+    .testi{
+    font-size: 13px;
+    margin-bottom: 3px !important   ;
+   }
+   .comma{
+    height: 52px !important;
+   }
+   .person{
+    margin-top: 12px !important;
+   }
+   .SectionTesti{
+    height: 114vh !important;
+    
+   }
+   
+}
+@media(max-width:460px){
+    .SectionTesti{
+        height: 165vh !important;
+        
+       }
+}
+@media(max-width:430px){
+    .SectionTesti{
+        height: 150vh !important;
+        
+       }
+}
+
+@media(max-width : 380px){
+    .testi-header{
+     margin-top: 30px !important;
+     margin-left: 35px;
+    }
+     .SectionTesti{
+         height: 140vh !important;
+         margin-top: 20px;
+ 
+     }
+     .ContainerTesti{
+         height: 140vh !important;
+     }
+    
+ }
+
+.card{
+    border-radius: 5% !important;
+    width: 31%;
+     margin-top: 100px;
+    
+}
+.card p{
+    color: #121212;
+}
+
+.HeadingTesti h1{
+    font-weight: 800;
+    line-height: 60px;
+    color:#fff;
+    margin-top: 5px !important;
+    padding-bottom: 10px !important;
+    border-bottom:2px solid #ff2d34;
+}
+.HeadingTesti h1::first-letter{
+    font-size: 60px;
+}
+  

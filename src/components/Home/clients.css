@@ -1,0 +1,143 @@
+.clients-container{
+    width: 100vw;
+    height: 85vh !important;
+    border: 2px solid whitesmoke;
+   
+}
+.clients-container span{
+    display: flex;
+    padding-top:30px ;
+    
+}
+.HeadingClients{
+    margin-left: 37%;
+}
+.clients-container h1::first-letter{
+    font-size: 64px;
+}
+
+.SubClients h1{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600 !important;
+    
+    color: #ff2d34 !important;
+   
+
+
+
+
+}
+
+
+@media(max-width:500px){
+    .SubClients h1{
+
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 28px !important;
+        font-weight: 600 !important;
+        
+        color: #ff2d34 !important;
+        
+    }
+    .HeadingClients{
+        margin-left: 23%;
+    }
+    .ClientSection{
+        height: 150vh !important;
+    }
+}
+
+@media(max-width:430px){
+    .ClientSection{
+        height: 140vh !important;
+    }
+    .clients-container h1::first-letter{
+        font-size: 40px;
+    }
+    .SubClients h1{
+
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 28px !important;
+        font-weight: 600 !important;
+        
+        color: #ff2d34 !important;
+        
+    }
+    .HeadingClients{
+        margin-left: 17%;
+    }
+}
+@media(max-width:380px){
+    .ClientSection{
+        height: 123vh !important;
+    }
+}
+
+.ClientsHeader{
+margin-top: 10px !important;
+}
+.clients-container h1{
+    font-weight: 800;
+    line-height: 64px;
+    color: white;
+    padding-bottom: 10px !important;
+    
+  }
+  .clients-container .v{
+    font-size: 74px;
+    color:white;
+  }
+  
+.clients-container h1{
+    color: #121212;
+    font-weight: 800;
+    line-height: 64px;
+}
+.clients{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width : 700px){
+    .clients-container{
+        height: 112vh ;
+    }
+    .clients{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .clients-row img{
+        height: 75px !important;
+        width: 75px !important;
+    }
+}
+@media (max-width : 800px){
+    .clients-container{
+        height: 45vh;
+    }
+    .clients-row img{
+        height: 65px !important;
+        width: 65px !important;
+    }
+}
+
+@media(max-width:400px){
+    .ClientSection{
+        height: 118vh !important;
+    }
+}
+.clients-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.clients-row img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}

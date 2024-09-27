@@ -1,0 +1,118 @@
+.header-divTraction{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh !important;
+}
+.header-Traction{
+    padding-left: 0 !important;
+}
+.header-Traction span{
+    display: inline-flex !important;
+}
+.header-Traction h2{
+    border-bottom: 2px solid #DC0000;
+}
+.header-divTraction .header-services{
+    margin-bottom: 0px;
+}
+
+@media (max-width:800px){
+    .header-divTraction .header-services{
+        padding-left: 10px;
+        margin-bottom: 20px;
+
+    }
+    .Slider-DivTraction .Card-Slider{
+        width: 350px !important;
+        height: 300px !important;
+        margin-left: 10px;
+    }
+    .Slider-DivTraction .Card-Slider img{
+        width: 350px !important;
+        height: 300px !important;
+        
+        object-fit: cover !important;
+    }
+   
+    .header-divTraction{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        height: 115vh !important;
+    }
+    .Slider-DivTraction{
+        margin-top: 0px !important;
+    }
+}
+@media (max-width : 1000px){
+    .Slider-Div{
+        flex-direction: column !important;
+    }
+}
+.Slider-DivTraction{
+    display: flex;
+    justify-content: space-around !important;
+    margin-top: 20px !important;
+    
+}
+@media(min-width:800px){
+    .Slider-DivTraction{
+        margin-left: 50px;
+    }
+    .Slider-DivTraction .Card-Slider{
+        width: 500px !important;
+        height: 300px !important;
+    }
+    .Slider-DivTraction .Card-Slider img{
+        width: 500px !important;
+        height: 300px !important;
+        
+        object-fit: cover !important;
+    }
+    
+    
+    
+}
+@media (max-width:800px){
+    .Slider-DivTraction{
+        flex-direction: column !important;
+    }
+    .para-services{
+        padding-left: 0px !important;
+    }
+    .Slider-DivTraction .TractionPoints  li{
+        font-size: 14px !important;
+    }
+    .Slider-DivTraction ul {
+        padding-left: 7px ;
+        padding-right: 10px;
+     }
+    
+}
+@media (max-width : 1000px){
+    .Slider-DivTraction{
+        flex-direction: column !important;
+    }
+}
+
+
+
+
+.button-slider{
+   padding-left: 120px;
+}
+.readMore{
+    margin-left: 150px;
+}
+
+.Content-containerProcess{
+
+    margin-right: 100px;
+}
+.Card-ContainerProcess{
+    height: 400px !important;
+    width: 400px;
+    
+  
+}

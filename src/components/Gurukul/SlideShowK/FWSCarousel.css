@@ -1,0 +1,129 @@
+
+  .container-sliderB {
+    max-width: 100vw;
+    height: 85vh;
+    margin: 10px auto 0;
+    
+    position: relative;
+    overflow: hidden;
+    background-color: #121212;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    
+  }
+  .container-sliderB h2{
+    border-bottom: 2px solid #DC0000;
+    color: #fff;
+  }
+  .SlideShowKHeader{
+    display: inline-flex;
+    margin: 20px;
+  }
+.paraSlideShowK{
+  color: #fff;
+  margin-left: 30px;
+  text-transform: none;
+}
+  @media screen and (max-width: 700px){
+    .container-slider {
+      margin: 0px 10px 0;
+    }
+  }
+  .slideB {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.4s;
+  }
+  .slideB img {
+    width: 100vw;
+    height: 100% !important;
+    object-fit: contain;
+  }
+  .slideB .content{
+    z-index: 10;
+    position: absolute;
+    top: 50vh;
+    color: white;
+   left: 100px;
+   
+  }
+
+  .slideB .content .headerSlideShowA {
+  font-size: 36px !important  ;
+  line-height: 74px !important;
+  border-bottom: #DC0000 2px solid;
+  color: #fff;
+  text-shadow: 2px 2px #121212;
+  text-align: left;
+  font-weight: 600 !important;
+  }
+  .active-anim {
+    opacity: 1;
+  }
+  
+  .btn-slide {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .btn-slide img {
+    filter: invert(16%) sepia(36%) saturate(5355%) hue-rotate(347deg) brightness(82%) contrast(123%);
+    width: 70px;
+    height: 70px;
+    pointer-events: none;
+  }
+
+  @media(min-width:700px){
+    .prev {
+      top: 50%;
+      left: 20px;
+      transform: translateY(-60%);
+    }
+    .next {
+      top: 50%;
+      right: 20px;
+      transform: translateY(-60%);
+    }
+    
+  }
+  @media(max-width:700px){
+    .prev {
+      top: 70% !important;
+      left: 20px;
+      transform: translateY(-60%);
+    }
+    .next {
+      top: 70% !important;
+      right: 20px;
+      transform: translateY(-60%);
+    }
+  }
+  
+  .container-dots {
+   
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+   background-color: whitesmoke;
+    margin: 0 5px;
+    
+  }
+  .dot.active {
+    background: #121212;
+  }
+  

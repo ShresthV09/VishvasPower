@@ -1,0 +1,96 @@
+.SectionCORE{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.ContainerWINDINGS{
+    display: flex;
+    flex-direction:row-reverse;
+   position: relative;
+   top: 5vh;
+    width: 90vw;
+    height: 70vh;
+}
+.ContainerCORE{
+    display: flex;
+    flex-direction:row;
+   position: relative;
+   top: 5vh;
+    width: 90vw;
+    height: 70vh;
+    
+}
+.SliderCORE{
+    height: 75vh;
+    width: 45vw;
+   
+}
+.CardCORE{
+    position: relative;
+    top: 1.5vh;
+    height: 73vh;
+    width: 45vw; 
+}
+.CardCORE img{
+    
+   height: 73vh;
+    width: 45vw;
+    z-index: 1;
+}
+.ButtonCORE{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 35vh;
+    width: 45vw;
+    z-index: 200;
+}
+.ButtonCORE img{
+    height: 70px;
+    width: 70px;
+    filter: invert(12%) sepia(89%) saturate(7479%) hue-rotate(3deg) brightness(83%) contrast(114%);
+}
+.ContentContainerCORE{
+    height: 70vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+}
+.ContentCORE{
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    position: relative;
+    height: 50vh;
+    width: 39vw;
+   
+}
+.HeaderCORE{
+    height: 15vh ;
+}
+
+.HeaderCORE span{ 
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    
+    
+    
+}
+.HeaderCORE h2{
+    padding-bottom: 5px;
+    letter-spacing: 1.2px;
+    font-weight: 800;
+}
+.FirstLCORE{
+    font-size: 64px;
+}
+.ListContainerCORE{
+    height:auto;
+   display: flex;
+    justify-content: center;
+   
+}
