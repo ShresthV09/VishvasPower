@@ -34,19 +34,7 @@ export const ContactUs = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='contact-divs'>
-                    <h4>
-                    Contact Person:-
-                    </h4>
-                    <ul>
-                        <li>
-                        Mr R M Bhave
-                        </li>
-                        <li>
-                        9326004101
-                        </li>
-                    </ul>
-                </div>
+                 
                 
             </div>
            
@@ -64,19 +52,7 @@ export const ContactUs = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='contact-divs'>
-                    <h4>
-                    Contact Person:-
-                    </h4>
-                    <ul>
-                        <li>
-                        Mr R M Bhave
-                        </li>
-                        <li>
-                        9326004101
-                        </li>
-                    </ul>
-                </div>
+                 
         </div>
         </div>
 
@@ -94,19 +70,7 @@ export const ContactUs = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='contact-divs'>
-                    <h4>
-                    Contact Person:-
-                    </h4>
-                    <ul>
-                        <li>
-                        Mr R M Bhave
-                        </li>
-                        <li>
-                        9326004101
-                        </li>
-                    </ul>
-                </div>
+                 
                 
             </div>
            
@@ -124,19 +88,7 @@ export const ContactUs = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='contact-divs'>
-                    <h4>
-                    Contact Person:-
-                    </h4>
-                    <ul>
-                        <li>
-                        Mr R M Bhave
-                        </li>
-                        <li>
-                        9326004101
-                        </li>
-                    </ul>
-                </div>
+                 
         </div>
         </div>
 
@@ -154,19 +106,7 @@ export const ContactUs = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='contact-divs'>
-                    <h4>
-                    Contact Person:-
-                    </h4>
-                    <ul>
-                        <li>
-                        Mr R M Bhave
-                        </li>
-                        <li>
-                        9326004101
-                        </li>
-                    </ul>
-                </div>
+                 
                 
             </div>
            
@@ -182,19 +122,7 @@ export const ContactUs = () => {
                         
                     </ul>
                 </div>
-                <div className='contact-divs'>
-                    <h4>
-                    Contact Person:-
-                    </h4>
-                    <ul>
-                        <li>
-                        Mr R M Bhave
-                        </li>
-                        <li>
-                        9326004101
-                        </li>
-                    </ul>
-                </div>
+                 
         </div>
         </div>
 
